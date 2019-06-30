@@ -1,0 +1,314 @@
+*,body{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    position: relative;
+    width: 170px;
+    height: 77px;
+    font-family: OpenSans;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+h3{
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #13589a;
+}
+h5{
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    color: #7d7d7d;
+}
+.leftside{
+    width: 220px;
+    height: 675px;
+    background-image: linear-gradient(to top, #1c305d, #13589a 51%, #3e91ce);
+    border-bottom-right-radius: 50px;
+}
+.photo{
+    position: absolute;
+    top: 42px;
+    left: 73px;
+    width: 168px;
+    height: 168px;
+    border-radius: 10px;
+    z-index:2;
+}
+.rectangle {
+    width: 30px;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f07e22;
+  }
+.leftside .content{
+    position: relative;
+    top: 238px;
+    left: 35px;
+}
+.role{
+    width: 146px;
+    height: 25px;
+    font-family: OpenSans;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 14px
+}
+.leftside ul{
+    margin-top: 32px;
+    padding: 0px
+}
+.leftside ul li img{
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+}
+.leftside ul li{
+    width: 130px;
+    height: 17px;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 0%;
+    margin-top:23px;
+}
+.leftside ul li p{
+    display: inline;
+    font-family: OpenSans; 
+    margin-left: 13px;
+}
+.opacity-1{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    width: 168px;
+    height: 286px;
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom, #2c93ff, rgba(44, 147, 255, 0.3) 53%, rgba(44, 147, 255, 0));
+    border-top-right-radius: 30px
+}
+.opacity-2{
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    width: 126px;
+    height: 213px;
+    opacity: 0.4;
+    background-image: linear-gradient(to bottom, #2c93ff, rgba(44, 147, 255, 0.3) 53%, rgba(44, 147, 255, 0));
+    border-top-right-radius: 30px
+}
+.contact{
+    margin: 46px 6px 0px 35px;
+}
+.contact ul li {
+    display: block;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7d7d7d;
+    margin: 10px 0px
+}
+.contact ul li img{
+    position: relative;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    margin-right: 11px;
+}
+.main{
+    position: absolute;
+    width: 320px;
+    left: 270px;
+    top: 0px;
+}
+.introduction{
+    width: 293px;
+    height: 61px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7d7d7d;
+    margin-top: 60px;
+}
+.education{
+    position: relative;
+    margin: 20px;
+}
+.elipse{
+    width: 20px;
+    height: 20px;
+    background-color: #f07e22;
+    border-radius: 10px;
+    position: absolute;
+    left: -29px;
+    top: -3px;
+}
+.education h5{
+    margin: 10px 1px 2px 0px;
+}
+.main p{
+    font-family: OpenSans;
+    font-size: 10px;
+    color: #969696;
+}
+.experience{
+    position: relative;
+    margin: 20px 20px 0px 20px;
+}
+.experience h3{
+    margin-bottom: 10px;
+}
+.exp-list .job{
+    position: relative;
+    top: -13px;
+    left: 130px;
+} 
+.exp-list p{
+    display: inline;
+    width: 66px;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #969696;
+}  
+.exp-list h6{
+    width: 118px;
+    height: 14px;
+    font-family: OpenSans;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #969696;
+}
+.exp-list{
+    margin: 5px 1px
+}
+.achivement{
+    position: relative;
+    margin:  10px 20px 0px 20px;
+}
+.achivement-list{
+    margin: 10px 1px 2px 0px;
+}
+.achivement h6{
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    color: #969696;
+    margin: 2px;
+}
+.topskill{
+    position: relative;
+    margin:  20px;
+}
+.topskill-list{
+    margin: 10px 0px 2px 0px;
+}
+.topskill h6{
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    color: #969696;
+    margin: 2px;
+}
+.presentate{
+    position: relative;
+    left: 55px;
+    width: 150px;
+    top : -8px;
+}
+.topskill-list p{
+    position: relative;
+    left: 215px;
+    top:-18px;
+}
+.full{
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    border: none;
+}
+.filled{
+    margin-top: -5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #f07e22;
+    border: none;
+}
+.leftside h4{
+    width: 60px;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.qrcode{
+    margin-top:6px;
+    margin-left: 10px;
+    width:  80px;
+    height: 80px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    background-image: url('border.png');
+    background-size:cover;
+}
+.leftside .dot-container .dot{
+    position: relative;
+    margin: 4px;
+    width: 3px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    float: left;
+}
+.leftside .dot-container{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin: 18px;
+    z-index:1;
+}
